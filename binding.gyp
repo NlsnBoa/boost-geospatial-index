@@ -16,7 +16,8 @@
         ['OS=="mac"', {
           'xcode_settings': {
             'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-            'CLANG_CXX_LIBRARY': 'libc++'
+            'CLANG_CXX_LIBRARY': 'libc++',
+            'BOOST_NO_AUTO_PTR': 'Y'
           }
         }]
       ]
